@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <table>
+            <thead id="monthyear">
+
+            </thead>
+            <tr class="weeks">
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tbody class='calendar-body' id="calendar-body">
+
+            </tbody>
+        </table>
+        <div class="prev-next">
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+        </div>
+        <span> Select Date: <input id='selectDate' type='date'> </span>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
